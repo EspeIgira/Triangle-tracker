@@ -1,3 +1,6 @@
+html{
+  background-image:url(http://wallup.net/wp-content/uploads/2016/01/123104-triangle-space-TylerCreatesWorlds-Penrose_triangle.png);
+}
 .input{
 padding:40px;
 }
@@ -11,4 +14,8 @@ padding:40px;
 form{
   margin-bottom:1000px;
   margin-top:50px;
+}
+strong{
+  /*background-color:rgb(133, 133, 161);*/
+  padding:2px;
 }

@@ -1,6 +1,10 @@
+ var triangle = 20;
  function triangle()
  {
-   var side1 = document.getElementById('sidea').value;
+  var side = [side1,side2,side3]
+
+
+   var side1= document.getElementById('sidea').value;
    var side2= document.getElementById('sideb').value;
    var side3= document.getElementById('sidec').value;
 
