@@ -6,12 +6,22 @@
   <title>Triangle Tracker</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
-  <script src="main.js"></script>
+  <link rel="stylesheet" type="text/css" media="screen" href="triangle.css" />
+  <!--<script src="main.js"></script>-->
   <script src="triangle.js"></script>
+  
 </head>
 
 <body>
-  Name: <input type="number" id="myNumber">
-  <button onclick= "myFunction()"> Try it </button>
+  <form class="image">
+  <em><strong>Triangle tracker:</strong></em> <div class="input"><br>
+     a <input type="number" id="sidea"><br><br>
+     b <input type="number" id="sideb"><br><br>
+     c <input type="number" id="sidec"><br><br>
+  </div>
+  <br>
+  <div id="button"><button onclick= "triangle()"><strong>Check if</strong> </button></div>
+  <p>The triangle is <br><br> Isocele or Equilateral or Scalene or Not a triangle.</p>
+</form>
 </body>
 </html>
