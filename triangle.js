@@ -8,19 +8,19 @@
    var side2= document.getElementById('sideb').value;
    var side3= document.getElementById('sidec').value;
 
-   if(side1===side2>0 && side2===side3>0 && side1===side3>0)
+   if(side1===side2 && side2===side3 && side1===side3)
    {
-    alert("Equilateral");
+    alert("This triangle is Equilateral.");
    }
-   else if(side1===side2 || side2===side3 || side1===side3)
+   else if(side1==side2 || side2==side3 && side1==side3)
    {
-     alert("Isoscele");
+     alert("This triangle is Isoscele.");
    }
-   else if(side1!==side2 || side2!==side3 || side1!==side3)
+   else if(side1!==side2 || side2!==side3 || side1!==side3 && side3!==0)
    {
-    alert("Scalene");
+    alert("This triangle is Scalene.");
    }
    else{
-     alert("Not a triangle");
+     alert("They is No an existence of a triangle.");
    }
  }

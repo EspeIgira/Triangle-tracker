@@ -10,6 +10,13 @@
   
   Browser and text editor.
 
+## BDD
+|  Input   |      Output           |           Behaviour                |
+|----------|:---------------------:|-----------------------------------:|
+| (5,5,5)  |  Equilateral Triangle | All sides or angles are equal.     |
+| (3,3,5)  |  Isoscele Triangle    | Only two sides or angles are equal.|
+| (3,4,8)  |  Scalene Triangle     | All sides or angles are unequal.   |
+
 ## Technologies Used
   
   HTML Language, JavaScript  and Css Stylesheet.
