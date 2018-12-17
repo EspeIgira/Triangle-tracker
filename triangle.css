@@ -3,12 +3,38 @@ html{
   background-repeat:no-repeat;
 }
 #triangle{
-  text-align: left;
-  color:whitesmoke;
+  text-align: center;
+  color:black;
   float:right;
-  margin-top:9px;
-  margin-left:150px;
-  margin-right:150px;
+  margin-left:20px;
+  margin-right:30px;
+  /*background-color:white;*/
+  /*padding-top:30px;*/
+  padding-bottom:19px;
+}
+ #triangle p{
+  color:white;
+  background-color: rgb(32, 43, 32);
+  padding:2px;
+ }
+ #triangle .first{
+  margin-left:80px;
+  margin-right:80px;
+}
+ #triangle .second{
+   margin-left:19px;
+   margin-right:19px;
+ }
+ #triangle .third{
+  margin-left:80px;
+  margin-right:80px;
+}
+.background{
+  background-color: rgb(32, 43, 32);
+  margin-left: 250px;
+  margin-right: 250px;
+  padding:10px;
+
 }
 .input{
 padding:40px;

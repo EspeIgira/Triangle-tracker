@@ -16,11 +16,11 @@
    {
      alert("This triangle is Isoscele.");
    }
-   else if(side1!==side2 || side2!==side3 || side1!==side3 && side3!==0)
+   else if(side1!==side2 || side2!==side3 || side1!==side3 && side2!==0)
    {
     alert("This triangle is Scalene.");
    }
-   else{
-     alert("They is No an existence of a triangle.");
+   else if((side1+side2<side3) (side1+side3<side2) (side2+side3<side1)){
+     alert("There is no any existence of a triangle.");
    }
  }
