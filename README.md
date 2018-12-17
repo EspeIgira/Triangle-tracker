@@ -11,11 +11,12 @@
   Browser and text editor.
 
 ## BDD
-|  Input   |      Output           |           Behaviour                |
+|  Input   |      Output           | Behaviour                          |
 |----------|:---------------------:|-----------------------------------:|
 | (5,5,5)  |  Equilateral Triangle | All sides or angles are equal.     |
 | (3,3,5)  |  Isoscele Triangle    | Only two sides or angles are equal.|
-| (3,4,8)  |  Scalene Triangle     | All sides or angles are unequal.   |
+| (3,6,7)  |  Scalene Triangle     | All sides or angles are unequal.   |
+| (9,4,3)  |  Not a Triangle       | No existence of a triangle.        |
 
 ## Technologies Used
   
